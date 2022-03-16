@@ -1,0 +1,17 @@
+p{
+ font-family: cursive;
+}
+.form-group{
+  margin-top: 10px;
+}
+button
+{
+    top: 20%;
+    text-align: center;
+    border-radius: 15px;
+    border: 3px solid #73ad21;
+    width: fit-content;
+    margin: 10px;
+    padding: 10px;
+}
+

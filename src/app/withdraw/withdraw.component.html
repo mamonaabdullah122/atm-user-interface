@@ -1,0 +1,13 @@
+<p>How many</p>
+
+<div class="md-form">
+  <input mdbInput type="text" id="form1" class="form-control" style="height: 40px; font-family: 'Times New Roman', Times, serif;">
+  </div>
+
+
+<button (click)="clickFunction()">Submit</button>
+
+<div *ngFor="let post of posts">
+   <button (click)="callFunction($event, post)">{{ post}}</button>
+</div>
+
